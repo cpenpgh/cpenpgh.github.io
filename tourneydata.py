@@ -2,6 +2,8 @@ import requests
 
 # Set the API URL
 url = "https://next.matchplay.events=API_KEY"
+key = "/private/key"
+
 
 # Make a GET request to the API
 response = requests.get(url)
